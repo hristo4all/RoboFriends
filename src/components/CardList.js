@@ -5,6 +5,9 @@ import Card from './Card';
 //thus minimizing amount of work done to the DOM
 
 const CardList = ({robots}) =>{
+    if(true){
+        throw new Error('Noooooo')
+    }
     return (
         <div>
             {robots.map((user, i) => {
